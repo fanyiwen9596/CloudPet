@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6TN-a3-yqP">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="First" id="BYZ-38-t0r" customClass="ViewController" customModule="CloudPets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the first view: Photo Sharing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAx-CX-gwu">
+                                <rect key="frame" x="53" y="320" width="269" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PAx-CX-gwu" secondAttribute="trailing" constant="53" id="TfA-dZ-DQZ"/>
+                            <constraint firstItem="PAx-CX-gwu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="300" id="egk-Wt-vZV"/>
+                            <constraint firstItem="PAx-CX-gwu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="i58-kD-2uB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="30" id="QiS-le-4T1">
+                        <color key="badgeColor" red="0.91296905279999996" green="0.76720559600000005" blue="0.81164258720000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1650" y="826"/>
+        </scene>
+        <!--Second-->
+        <scene sceneID="S4d-yC-wID">
+            <objects>
+                <viewController title="Second" id="qet-It-xtD" customClass="SecondViewController" customModule="CloudPets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E1z-Kl-oAQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Qnt-Ce-FmT"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Pet Hotel" image="30" id="Uoy-Bk-Yiq">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h4D-gQ-35V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-990" y="928"/>
+        </scene>
+        <!--Third-->
+        <scene sceneID="AYx-Py-tS1">
+            <objects>
+                <viewController title="Third" id="EUr-b6-H4f" customClass="ThirdViewController" customModule="CloudPets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ubs-bR-8Ix">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="1xw-6J-mi9"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Community" image="30" id="7Ua-jJ-bDx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PbQ-Q9-Gz8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-298" y="928"/>
+        </scene>
+        <!--Fourth-->
+        <scene sceneID="zDp-vh-gG9">
+            <objects>
+                <viewController title="Fourth" id="1XT-4P-ppn" customClass="FourthViewController" customModule="CloudPets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uvV-oG-Y75">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="SQx-fB-5aw"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="4" image="30" id="Xxf-1L-tRU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fID-Td-akI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="391" y="928"/>
+        </scene>
+        <!--5-->
+        <scene sceneID="TsK-L1-kB7">
+            <objects>
+                <viewController id="r0C-4y-6z8" customClass="FifthViewController" customModule="CloudPets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1c2-wo-4gY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="cgk-3T-qlN"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="5" image="30" id="zfP-Oy-xaY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="63j-pN-JkB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066" y="792"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="jT3-ll-0lg">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="6TN-a3-yqP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4ye-E8-EmO">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="9Za-Oo-sbG"/>
+                        <segue destination="qet-It-xtD" kind="relationship" relationship="viewControllers" id="1d0-9i-aLM"/>
+                        <segue destination="EUr-b6-H4f" kind="relationship" relationship="viewControllers" id="m0O-mh-UNA"/>
+                        <segue destination="1XT-4P-ppn" kind="relationship" relationship="viewControllers" id="LKo-Wd-CW6"/>
+                        <segue destination="r0C-4y-6z8" kind="relationship" relationship="viewControllers" id="MIr-bp-Q1f"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XmW-QI-enA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-298" y="134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="30" width="30" height="30"/>
+    </resources>
+</document>
