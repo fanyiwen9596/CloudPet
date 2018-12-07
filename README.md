@@ -10,5 +10,5 @@ We would like put our project’s entry point at dealing with several small sub-
 3) helping to pair the owners who are going to move or leave for a while with other users who can take care of the pets, 
 4) helping to deal with lost or strayed pets problem. 
 
-
+Website and Media:
 https://sites.google.com/u.rochester.edu/cloudpet/
